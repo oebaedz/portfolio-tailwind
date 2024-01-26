@@ -18,10 +18,3 @@ hamburger.addEventListener("click", function () {
   hamburger.classList.toggle("hamburger-active");
   navMenu.classList.toggle("hidden");
 });
-
-// Project Link
-const project = document.getElementById("projectOne");
-
-project.addEventListener("click", function () {
-  location.href = "https://www.youtube.com";
-});
